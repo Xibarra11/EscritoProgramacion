@@ -15,6 +15,10 @@ Route::post('/personas', function(){
     return 'Pesona dada de alta';
 });
 
+Route::get('/personas/{id}', function(){
+    return 'Actualizando informacion de la persona';
+});
+
 
 
 
