@@ -11,5 +11,10 @@ Route::get('/personas/{id}', function(){
     return 'Listado de personas por ID';
 });
 
+Route::post('/personas', function(){
+    return 'Pesona dada de alta';
+});
+
+
 
 
