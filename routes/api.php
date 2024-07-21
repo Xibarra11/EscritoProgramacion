@@ -19,6 +19,8 @@ Route::get('/personas/{id}', function(){
     return 'Actualizando informacion de la persona';
 });
 
-
+Route::get('/personas/{id}', function(){
+    return 'eliminando persona';
+});
 
 
